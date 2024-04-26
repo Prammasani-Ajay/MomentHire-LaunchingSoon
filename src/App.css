@@ -1,0 +1,89 @@
+main{
+  color: #ffffff;
+  background-color: rgb(0, 167, 205);
+  padding-bottom: 5rem;
+}
+.titleOfPage{
+  font-size:45px;
+}
+.launchingSoonText{
+  font-size:75px;
+  padding-left: 3%;
+}
+.inviteText{
+  width: 75%;
+  font-size:30px;
+  padding-left: 3%;
+}
+.aboutCompany{
+  width: 75%;
+  font-size:18px;
+  padding-left: 3%;
+}
+#imageMain{
+  width:100%;
+}
+.entireContent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar{
+  padding: 0% 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contactUS{
+  background-color: rgb(255, 140, 0);
+  border: solid 1px #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  height: 2rem;
+  padding: 10px 25px 25px 25px;
+}
+.contactUS:hover{
+  cursor: pointer;
+  background-color: rgb(210, 168, 0);
+}
+input{
+  width: 28rem;
+  height: 2rem;
+}
+[type='submit']{
+  background-color: rgb(44, 44, 255);
+  width: 7rem;
+  margin: auto;
+  color: #ffffff;
+  font-weight:bold;
+  border: solid 1px #ffffff;
+  border-radius: 7px;
+}
+dialog{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 4rem;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.745);
+  border-radius: 25px;
+  border: solid 1px #000000;
+}
+.closeBtn{
+  background-color: rgb(255, 0, 0);
+  width: 5rem;
+  padding:6px;
+  margin-left: 23rem;
+  color: #ffffff;
+  font-weight:bold;
+  border: solid 1px #ffffff;
+  border-radius: 7px;
+}
+.closeBtn:hover{
+ cursor: pointer;
+ background-color: rgb(196, 0, 0);
+}
+[type='submit']:hover{
+  cursor: pointer;
+  background-color:rgb(0, 0, 185) ;
+}
